@@ -1,0 +1,9 @@
+.pageContent {
+    height: calc(100% - 1em);
+    padding: 1em;
+}
+
+.board {
+    background-color: gray;
+    position: relative;
+}

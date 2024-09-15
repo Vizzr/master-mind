@@ -1,0 +1,9 @@
+.row {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.row.current {
+    background-color: lightgreen;
+}

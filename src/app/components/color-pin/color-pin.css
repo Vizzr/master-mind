@@ -1,0 +1,77 @@
+.colorPin {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.colorPin.None {
+    position: relative;
+    color: blue;
+}
+
+.colorPin.None::before {
+    content: " ";
+    position: absolute;
+    display: block;
+    background-color: blue;
+    width: 2px;
+    left: 22px;
+    top: 5px;
+    bottom: 5px;
+    transform: rotate(45deg);
+}
+
+.colorPin.None::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    background-color: blue;
+    height: 2px;
+    top: 22px;
+    left: 5px;
+    right: 5px;
+    transform: rotate(45deg);
+}
+
+.colorPin.Black {
+    background-color: black;
+}
+
+.colorPin.Blue {
+    background-color: blue;
+}
+
+.colorPin.Brown {
+    background-color: brown;
+}
+
+.colorPin.Green {
+    background-color: green;
+}
+
+.colorPin.Orange {
+    background-color: orange;
+}
+
+.colorPin.Blue {
+    background-color: blue;
+}
+
+.colorPin.Red {
+    background-color: red;
+}
+
+.colorPin.White {
+    background-color: white;
+}
+
+.colorPin.Yellow {
+    background-color: yellow;
+}
+
+.colorPin.Clickable {
+    cursor: pointer;
+}

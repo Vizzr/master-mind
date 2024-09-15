@@ -1,0 +1,10 @@
+.colorPicker {
+    background-color: gray;
+    position: absolute;
+    right: -100px;
+    bottom: 0;
+}
+
+.colorPicker>* {
+    display: block;
+}

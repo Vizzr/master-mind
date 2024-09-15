@@ -1,0 +1,30 @@
+.overlay {
+    position: absolute;
+    background-color: transparent;
+    z-index: 9999;
+}
+
+.overlay.open {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: background-color 0.25s ease-in-out;
+}
+
+.overlay .menu {
+    display: none;
+    position: relative;
+    padding: 1em;
+    top: 50%;
+    left: 50%;
+    background-color: lightgray;
+    width: 200px;
+    height: 200px;
+    transform: translate(-50%, -50%);
+    transition: all 0.25s ease-in-out;
+}
+
+.overlay.open .menu {
+    display: block;
+    transition: all 0.25s ease-in-out;
+}

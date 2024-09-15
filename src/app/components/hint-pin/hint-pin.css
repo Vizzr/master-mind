@@ -1,0 +1,16 @@
+.hintPin {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.hintPin.Different {
+    background-color: white;
+}
+
+.hintPin.Correct {
+    background-color: black;
+}
